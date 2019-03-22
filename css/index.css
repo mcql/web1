@@ -51,20 +51,20 @@
 }
 
 .banner {
-  height: 648px;
+  height: 600px;
   overflow: hidden;
   background: url(../images/banner_bg.png) no-repeat center center;
   margin-top: 72px;
 }
 
-.bannertitle{
+.bannertitle {
   width: 1050px;
   text-align: left;
-  margin-left: -525px;
+  margin-left: -405px;
   overflow: hidden;
   position: absolute;
   left: 50%;
-  top: 172px;
+  top: 302px;
 }
 
 .bannertitle h1 {
@@ -73,7 +73,7 @@
   color: #582912;
 }
 
-.bannertitle p{
+.bannertitle p {
   line-height: 2;
   color: #ed6d1f;
   font-size: 24px;
@@ -83,42 +83,238 @@
 .culture {
   width: 1200px;
   margin: 0 auto;
+  padding: 60px 0;
 }
 
-.culture > h5{
+.culture>h5,
+.about h5,
+.team h5,
+.event h5,
+.news > h5 {
   line-height: 60px;
   color: #582912;
   font-size: 48px;
+  font-weight: normal;
   overflow: hidden;
   text-align: center;
-  padding: 40px 0;
-  font-weight: normal;
+  padding: 0 0 40px;
 }
 
-.culture > div {
+.culture>div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.culture > div img {
+.culture>div img {
   width: 444px;
 }
 
-.culture > div h5{
+.culture>div h5 {
   height: 60px;
   line-height: 60px;
   color: #ed6d1f;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: bold;
 }
 
-.culture > div p{
+.culture>div p {
   font-size: 14px;
   color: #747474;
   margin-bottom: 40px;
 }
 
-.culture > div > div > div:nth-child(4) > p{
+.culture>div>div>div:nth-child(4)>p {
   margin-bottom: 0;
+}
+
+.about {
+  padding: 60px 0;
+  background: url(../images/about_bg.jpg) no-repeat center center;
+  background-attachment: fixed;
+}
+
+.about p {
+  width: 1200px;
+  margin: 0 auto;
+  text-indent: 2em;
+  font-size: 16px;
+  color: #fff;
+  line-height: 2;
+}
+
+.team {
+  padding: 60px 0;
+}
+
+.swiper-slide {
+  width: 750px;
+  height: 450px;
+  text-align: left;
+  padding-right: 20px;
+  padding-top: 60px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.teamlists {
+  border: 1px solid #ebebeb;
+  width: 100%;
+  height: 300px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.team_name {
+  color: #582912;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.team_position {
+  width: 220px;
+  color: #b2b2b2;
+  font-size: 12px;
+}
+
+.team_introduct {
+  font-size: 12px;
+  color: #747474;
+  line-height: 22px;
+  width: 400px;
+  margin-top: 40px;
+}
+
+.teamlists img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+}
+
+.teamlists>div:first-child {
+  margin-top: -60px;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  border: 1px solid #2c2a29;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ed6d1f;
+  border: 1px solid #ed6d1f;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0;
+}
+
+.event {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+.event img {
+  display: block;
+  width: 1191px;
+  margin: 0 auto;
+}
+
+.news{
+  padding: 60px 0;
+}
+
+.news_tit{
+  font-size: 16px;
+  color: #ed6d1f;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.news_introd{
+  font-size: 14px;
+  color: #747474;
+}
+
+.news_time{
+  color: #b2b2b2;
+  font-size: 12px;
+}
+
+.news ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.news ul li{
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.news ul li > div {
+  height: 355px;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  overflow: hidden;  
+}
+
+.news ul li > div h5 {
+  margin-top: 20px;
+}
+
+.news ul li > div p,.news ul li > div h5 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.news ul li img{
+  width: 100%;
+}
+
+.footer {
+  padding: 60px 0;
+  background-color: #582912;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer a{
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer > div {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer > div > img{
+  width: 100px;
+}
+
+.footer > div > div > ul > li{
+  line-height: 2;
+}
+
+.footer > div > div > ul > li:nth-child(1){
+  font-size: 16px;
+  line-height: 40px;
+
 }
