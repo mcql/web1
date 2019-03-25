@@ -41,6 +41,11 @@
   color: #0297D9;
 }
 
+.header li:hover a {
+  color: #0297D9;
+  transition: all 1s ease;
+}
+
 .login {
   color: rgb(2, 99, 145);
   font-size: 14px;
@@ -319,6 +324,7 @@
 
 .news {
   padding: 60px 0;
+  /* background-color: #f4f4f4; */
 }
 
 .news_tit {
@@ -466,4 +472,39 @@
   margin: 10px;
   font-weight: normal;
   line-height: 22px;
+}
+
+.other {
+  width: 100%;
+  height: 630px;
+  background: #f4f4f4 url(../images/other_bg.png) no-repeat bottom center;
+  background-size: cover;
+  text-align: center;
+}
+
+.other h1 {
+  height: 90px;
+  line-height: 90px;
+  color: #0297D9;
+  font-size: 72px;
+  font-weight: bold;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+.other h5 {
+  height: 45px;
+  line-height: 45px;
+  color: #0297D9;
+  font-size: 24px;
+  font-weight: bold;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.other p {
+  line-height: 25px;
+  color: #747474;
+  overflow: hidden;
+  font-size: 12px;
 }

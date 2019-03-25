@@ -12,6 +12,9 @@ th, td /* 表格元素 - table elements */ {
 body, button, input, select, textarea {
     font: 18px/1.5 '微软雅黑', '黑体', Helvetica, sans-serif;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 h1, h2, h3, h4, h5, h6, button, input, select, textarea { font-size: 100%; }
 
 /** 重置列表元素 - reset the list element **/
