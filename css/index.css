@@ -71,6 +71,10 @@
   margin-top: 72px;
 }
 
+.bannerx {
+  margin-top: 72px;
+}
+
 .bannertitle {
   width: 1050px;
   text-align: left;
@@ -222,8 +226,7 @@
 
 .about {
   padding: 60px 0;
-  background: url(../images/about_bg.jpg) no-repeat center center;
-  background-attachment: fixed;
+  background: url(../images/about_bg.jpg) no-repeat bottom center;
 }
 
 .about p {
@@ -231,7 +234,7 @@
   margin: 0 auto;
   text-indent: 2em;
   font-size: 14px;
-  color: #fff;
+  color: #747474;
   line-height: 2.5;
 }
 
@@ -239,7 +242,7 @@
   padding: 60px 0;
 }
 
-.swiper-slide {
+#swiper2 .swiper-slide {
   width: 750px;
   height: 450px;
   text-align: left;
@@ -477,7 +480,7 @@
 .other {
   width: 100%;
   height: 630px;
-  background: #f4f4f4 url(../images/other_bg.png) no-repeat bottom center;
+  background: url(../images/other_bg.png) no-repeat bottom center;
   background-size: cover;
   text-align: center;
 }

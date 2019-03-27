@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/index.css">
   <link href="https://cdn.bootcss.com/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,12 +35,16 @@
       <span class="operation">立即预约</span>
     </div>
   </header>
-  <section class="banner">
-    <div class="bannertitle">
-      <h1>启迪·汉洱康</h1>
-      <p>设检验平台和科研平台</p>
-      <p>专门为医疗机构提供先进的临床检验</p>
-      <p>先进、快捷、高质量、全方位</p>
+  <section class="bannerx">
+    <div class="swiper-container" id="swiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/banner1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/banner2.jpg" alt="">
+        </div>
+      </div>
     </div>
   </section>
   <div class="other">
@@ -53,7 +58,7 @@
   </div>
   <section class="team">
     <h5>核心团队</h5>
-    <div class="swiper-container">
+    <div class="swiper-container" id="swiper2">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="teamlists">
@@ -126,16 +131,16 @@
     </div>
   </section>
   <section class="about">
-      <h5>品牌介绍</h5>
-      <p>
-        启迪控股股份有限公司（以下简称：启迪控股）成立于2000年7月24日，其前身是成立于1994年8月的清华科技园发展中心。启迪控股是一家依托清华大学设立的聚焦科技服务领域的科技投资控股集团，是清华科技园开发建设与运营管理单位，是首批国家现代服务业示范单位。公司控（参）股启迪汉洱康、启迪桑德、世纪互联、BIOREM、启迪国际、启迪设计、中文在线、北控清洁能源等上市及非上市企业800多家，管理总资产规模超过2000亿元人民币。
-      </p>
-      <p>
-        上海汉洱康医学检验所有限公司由启迪控股，公司位于上海市黄浦区高雄路2号。公司设检验平台和科研平台，专门为医疗机构提供先进的临床检验，同时为生命科学、医药等领域提供先进、快捷、高质量、全方位的技术咨询、技术开发、技术服务和技术转让，从而实现人才、技术、设备等资源优化组合的服务性科研机构。目前本中心已经与国内多所知名院校及三甲医院形成长期的合作关系，为各企事业单位科研人员学术难题的解决提供了有效的帮助。
-      </p>
-      <p>
-        上海汉洱康医学检验所的检测平台，拥有1100平米专业的实验室、国际先进的实验设备以及经验丰富的实验人员。重点为广大患者和医疗机构提供分子细胞遗传学和免疫血清学方面的检测，分子细胞遗传学方面开展了微生物的分子检测，包括病毒、结核、真菌等；肿瘤基因的分子检测；先天性遗传性疾病的分子检测；药物基因组学的分子检测。免疫血清学方面开展了微生物的抗体检测；肿瘤标志物的检测；自身免疫抗体的检测等。
-      </p>
+    <h5>品牌介绍</h5>
+    <p>
+      启迪控股股份有限公司（以下简称：启迪控股）成立于2000年7月24日，其前身是成立于1994年8月的清华科技园发展中心。启迪控股是一家依托清华大学设立的聚焦科技服务领域的科技投资控股集团，是清华科技园开发建设与运营管理单位，是首批国家现代服务业示范单位。公司控（参）股启迪汉洱康、启迪桑德、世纪互联、BIOREM、启迪国际、启迪设计、中文在线、北控清洁能源等上市及非上市企业800多家，管理总资产规模超过2000亿元人民币。
+    </p>
+    <p>
+      上海汉洱康医学检验所有限公司由启迪控股，公司位于上海市黄浦区高雄路2号。公司设检验平台和科研平台，专门为医疗机构提供先进的临床检验，同时为生命科学、医药等领域提供先进、快捷、高质量、全方位的技术咨询、技术开发、技术服务和技术转让，从而实现人才、技术、设备等资源优化组合的服务性科研机构。目前本中心已经与国内多所知名院校及三甲医院形成长期的合作关系，为各企事业单位科研人员学术难题的解决提供了有效的帮助。
+    </p>
+    <p>
+      上海汉洱康医学检验所的检测平台，拥有1100平米专业的实验室、国际先进的实验设备以及经验丰富的实验人员。重点为广大患者和医疗机构提供分子细胞遗传学和免疫血清学方面的检测，分子细胞遗传学方面开展了微生物的分子检测，包括病毒、结核、真菌等；肿瘤基因的分子检测；先天性遗传性疾病的分子检测；药物基因组学的分子检测。免疫血清学方面开展了微生物的抗体检测；肿瘤标志物的检测；自身免疫抗体的检测等。
+    </p>
   </section>
   <section class="culture">
     <h5>企业文化</h5>
@@ -175,75 +180,75 @@
     </div>
   </section>
   <section class="event">
-      <h5>启迪大事记</h5>
-      <div id="main">
-        <div id="timeline">
-          <ul id="dates">
-            <li><a href="#2005">2005</a></li>
-            <li><a href="#2006">2006</a></li>
-            <li><a href="#2007">2007</a></li>
-            <li><a href="#2008">2008</a></li>
-            <li><a href="#2009">2009</a></li>
-            <li><a href="#2010">2010</a></li>
-            <li><a href="#2011">2011</a></li>
-            <li><a href="#2012">2012</a></li>
-            <li><a href="#2013">2013</a></li>
-            <li><a href="#2014">2014</a></li>
-          </ul>
-          <ul id="issues">
-            <li id="2005">
-              <a href="#">
-                <h3>2005年事件</h3>
-              </a>
-            </li>
-            <li id="2006">
-              <a href="#">
-                <h3>2006年事件</h3>
-              </a>
-            </li>
-            <li id="2007">
-              <a href="#">
-                <h3>2007年事件</h3>
-              </a>
-            </li>
-            <li id="2008">
-              <a href="#">
-                <h3>2008年事件</h3>
-              </a>
-            </li>
-            <li id="2009">
-              <a href="#">
-                <h3>2009年事件</h3>
-              </a>
-            </li>
-            <li id="2010">
-              <a href="#">
-                <h3>2010年事件</h3>
-              </a>
-            </li>
-            <li id="2011">
-              <a href="#">
-                <h3>20011年事件</h3>
-              </a>
-            </li>
-            <li id="2012">
-              <a href="#">
-                <h3>2012年事件</h3>
-              </a>
-            </li>
-            <li id="2013">
-              <a href="#">
-                <h3>2013年事件</h3>
-              </a>
-            </li>
-            <li id="2014">
-              <a href="#">
-                <h3>2014年事件</h3>
-              </a>
-            </li>
-          </ul>
-        </div>
+    <h5>汉洱康大事记</h5>
+    <div id="main">
+      <div id="timeline">
+        <ul id="dates">
+          <li><a href="#2005">2005</a></li>
+          <li><a href="#2006">2006</a></li>
+          <li><a href="#2007">2007</a></li>
+          <li><a href="#2008">2008</a></li>
+          <li><a href="#2009">2009</a></li>
+          <li><a href="#2010">2010</a></li>
+          <li><a href="#2011">2011</a></li>
+          <li><a href="#2012">2012</a></li>
+          <li><a href="#2013">2013</a></li>
+          <li><a href="#2014">2014</a></li>
+        </ul>
+        <ul id="issues">
+          <li id="2005">
+            <a href="#">
+              <h3>2005年事件</h3>
+            </a>
+          </li>
+          <li id="2006">
+            <a href="#">
+              <h3>2006年事件</h3>
+            </a>
+          </li>
+          <li id="2007">
+            <a href="#">
+              <h3>2007年事件</h3>
+            </a>
+          </li>
+          <li id="2008">
+            <a href="#">
+              <h3>2008年事件</h3>
+            </a>
+          </li>
+          <li id="2009">
+            <a href="#">
+              <h3>2009年事件</h3>
+            </a>
+          </li>
+          <li id="2010">
+            <a href="#">
+              <h3>2010年事件</h3>
+            </a>
+          </li>
+          <li id="2011">
+            <a href="#">
+              <h3>20011年事件</h3>
+            </a>
+          </li>
+          <li id="2012">
+            <a href="#">
+              <h3>2012年事件</h3>
+            </a>
+          </li>
+          <li id="2013">
+            <a href="#">
+              <h3>2013年事件</h3>
+            </a>
+          </li>
+          <li id="2014">
+            <a href="#">
+              <h3>2014年事件</h3>
+            </a>
+          </li>
+        </ul>
       </div>
+    </div>
   </section>
   <section class="news">
     <h5>公司新闻</h5>
@@ -310,11 +315,11 @@
     <div>
       <div>
         <ul>
-          <li>关于启迪</li>
+          <li>关于汉洱康</li>
           <li>公司简介
           <li>公司文化</li>
           <li>核心团队</li>
-          <li>启迪大事记</li>
+          <li>汉洱康大事记</li>
         </ul>
       </div>
       <div>
@@ -362,7 +367,7 @@
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
   <script src="./js/timeliner.js"></script>
   <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('#swiper2', {
       slidesPerView: 'auto',
       centeredSlides: true,
       grabCursor: true,
@@ -372,6 +377,9 @@
       },
       paginationClickable: true
     });
+    var swiper1 = new Swiper('#swiper1', {
+      
+    })
     $(function () {
       $(".culture_a,.culture_b,.culture_c").hover(function () {
         $(this).children("div").removeClass("hide");
