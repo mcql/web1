@@ -363,6 +363,20 @@
       <img src="./images/ewm.png" alt="">
     </div>
   </footer>
+
+  <section class="dialog hide">
+    <div>
+      <p>X</p>
+      <h1>立即预约</h1>
+      <div>
+        <input type="text" placeholder="姓名">
+        <input type="text" placeholder="手机号">
+        <textarea></textarea>
+      </div>
+      <div class="submit_btn">提交</div>
+    </div>
+  </section>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
   <script src="./js/timeliner.js"></script>
@@ -378,7 +392,7 @@
       paginationClickable: true
     });
     var swiper1 = new Swiper('#swiper1', {
-      
+
     })
     $(function () {
       $(".culture_a,.culture_b,.culture_c").hover(function () {
@@ -394,6 +408,13 @@
         startAt: 6,
         datesSpeed: 'slow',
         autoPlayPause: 3500
+      })
+      $(".operation").on('click', () => {
+        $(".dialog").removeClass('hide')
+      })
+
+      $(".dialog>div>p").on('click', () => {
+        $(".dialog").addClass('hide')
       })
     })
   </script>
