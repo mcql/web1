@@ -107,7 +107,8 @@
 .about h5,
 .team h5,
 .event h5,
-.news>h5 {
+.news>h5,
+.coop>h5 {
   line-height: 60px;
   color: rgb(2, 99, 145);
   font-size: 48px;
@@ -139,10 +140,21 @@
 .culture_b,
 .culture_c {
   position: relative;
-  background: url(../images/culture_test.png) no-repeat center center;
   background-size: cover;
 }
 
+.culture_a {
+  background: url(../images/culture_test2.jpg) no-repeat center center;
+}
+.culture_a:first-child {
+  background: url(../images/culture_test4.jpg) no-repeat center center;
+}
+.culture_b {
+  background: url(../images/culture_test3.jpg) no-repeat center center;
+}
+.culture_c {
+  background: url(../images/culture_test.png) no-repeat center center;
+}
 .culture_a>h5,
 .culture_b>h5,
 .culture_c>h5 {
@@ -244,7 +256,7 @@
 
 #swiper2 .swiper-slide {
   width: 750px;
-  height: 450px;
+  height: 380px;
   text-align: left;
   padding-right: 20px;
   padding-top: 60px;
@@ -256,7 +268,7 @@
 .teamlists {
   border: 1px solid #ebebeb;
   width: 100%;
-  height: 300px;
+  height: 250px;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
@@ -585,4 +597,38 @@
   background-color: #0297D9;
   color: #fff;
   margin-top: 30px;
+}
+
+.coop{
+  padding: 60px 0;
+}
+
+.coop_img{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coop_img > div {
+  width: 240px;
+  height: 240px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  border: 1px solid #747474;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coop_img > div img{
+  transition: all 1s ease;
+  width: auto;
+}
+
+.coop_img > div img:hover{
+  transform: scale(1.2, 1.2);
+  transition: all 1s ease;
 }
