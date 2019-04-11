@@ -204,7 +204,7 @@
       检验所拥有国际上最先进的检测平台及最优秀的专业人才，使用国际上最先进的检测设备，为患者和肿瘤易感人群提供高度专业和最前沿的检测服务，通过我们的检测，使患者得到最精准的诊疗和用药，同时实现易感人群通过了解自己的基因易感性可以有效地预防癌症的发生。
     </p>
   </section>
-  <section class="culture">
+  <!-- <section class="culture">
     <h5>企业文化</h5>
     <div class="culture_content">
       <div class="culture_d">
@@ -240,6 +240,32 @@
         </div>
       </div>
     </div>
+  </section> -->
+  <section class="culture">
+    <h5>企业文化</h5>
+    <div>
+      <div>
+        <div class="culture_partx">
+          <h5>企业文化</h5>
+          <p>汉洱康医学检验所是您身边的检验所，做您生命的聆听者！ </p>
+        </div>
+        <div class="culture_partx">
+          <h5>企业理念</h5>
+          <p>公司以“为国人的幸福和健康提供科学、精准的医学服务”为使命。</p>
+        </div>
+      </div>
+      <img src="./images/culture_c.png" alt="">
+      <div>
+        <div class="culture_partx">
+          <h5>企业优势</h5>
+          <p>用我们的专业，让我们的爱心，真诚的为您服务，为您的健康创造奇迹。</p>
+        </div>
+        <div class="culture_partx">
+          <h5>企业愿景</h5>
+          <p>创新引领发展，科技成就收获。</p>
+        </div>
+    </div>
+    </div>
   </section>
   <section class="event">
     <h5>汉洱康大事记</h5>
@@ -248,6 +274,8 @@
         <ul id="dates">
           <li><a href="#x1">2017年12月19日</a></li>
           <li><a href="#x2">2017年8月25日</a></li>
+          <li><a href="#x3">2018年5月14日</a></li>
+          <li><a href="#x4">2018年11月30日</a></li>
         </ul>
         <ul id="issues">
           <li id="x1">
@@ -259,7 +287,19 @@
           <li id="x2">
             <a href="#">
               <h3>启迪战略投资上海汉洱康</h3>
-              <img src="./images/event1.png" alt="">
+              <img src="./images/event2.png" alt="">
+            </a>
+          </li>
+          <li id="x3">
+            <a href="#">
+              <h3>中国社会工作联合会会长、全国人大社会建设委员会副会长宫蒲光一行莅临启迪汉洱康细胞中心</h3>
+              <img src="./images/event4.png" alt="">
+            </a>
+          </li>
+          <li id="x4">
+            <a href="#">
+              <h3>上海汉洱康医检所室间质评再获实力认证</h3>
+              <img src="./images/event3.png" alt="">
             </a>
           </li>
         </ul>
@@ -445,11 +485,11 @@
         datesSpeed: 'slow',
         autoPlayPause: 5000
       })
-      $(".operation").on('click', () => {
+      $(".operation").on('click', function(){
         $(".dialog").removeClass('hide')
       })
 
-      $(".dialog>div>p").on('click', () => {
+      $(".dialog>div>p").on('click', function(){
         $(".dialog").addClass('hide')
       })
     })
